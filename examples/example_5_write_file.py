@@ -14,6 +14,7 @@ with open("data/output.txt", "w") as file:
 with open("data/output.txt", "w") as file:
     file.write("\n".join(lines))
 
-# With a generator expression or comprehension
+# With a generator expression
 with open("data/output.txt", "w") as file:
+    # .writelines doesn't add \n
     file.writelines(line + "\n" for line in lines)
