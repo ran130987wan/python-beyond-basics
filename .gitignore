@@ -6,3 +6,6 @@
 *.py[cod]
 __pycache__/
 
+# Secrets
+secrets/
+examples/bonus/.env
